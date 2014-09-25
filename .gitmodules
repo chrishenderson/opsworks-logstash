@@ -106,9 +106,9 @@ url = https://github.com/opscode-cookbooks/xfs.git
 [submodule "xml"]
 path = xml
 url = https://github.com/opscode-cookbooks/xml.git
-[submodule "yum"]
-path = yum
-url = https://github.com/opscode-cookbooks/yum.git
+#[submodule "yum"]
+#path = yum
+#url = https://github.com/opscode-cookbooks/yum.git
 [submodule "rsyslog"]
 path = rsyslog
 url = https://github.com/opscode-cookbooks/rsyslog.git
@@ -118,9 +118,9 @@ url = https://github.com/foxycoder/hostsfile.git
 [submodule "rbenv"]
 path = rbenv
 url = https://github.com/ddux/rbenv-cookbook.git
-[submodule "yumrepo"]
-path = yumrepo
-url = https://github.com/bryanwb/cookbook-yumrepo.git
+#[submodule "yumrepo"]
+#path = yumrepo
+#url = https://github.com/bryanwb/cookbook-yumrepo.git
 [submodule "htpasswd"]
 path = htpasswd
 url = https://github.com/Youscribe/htpasswd-cookbook.git
