@@ -21,7 +21,7 @@ path = apt
 url = https://github.com/opscode-cookbooks/apt.git
 [submodule "erlang"]
 path = erlang
-url = https://github.com/opscode-cookbooks/erlang.git
+url = https://github.com/chrishenderson/erlang.git
 [submodule "mysql"]
 path = mysql
 url = https://github.com/opscode-cookbooks/mysql.git
@@ -30,7 +30,7 @@ path = nagios
 url = https://github.com/opscode-cookbooks/nagios.git
 [submodule "nginx"]
 path = nginx
-url = https://github.com/opscode-cookbooks/nginx.git
+url = https://github.com/chrishenderson/nginx.git
 [submodule "ntp"]
 path = ntp
 url = https://github.com/opscode-cookbooks/ntp.git
