@@ -39,7 +39,7 @@ path = postgresql
 url = https://github.com/opscode-cookbooks/postgresql.git
 [submodule "runit"]
 path = runit
-url = https://github.com/opscode-cookbooks/runit.git
+url = https://github.com/chrishenderson/runit.git
 [submodule "ant"]
 path = ant
 url = https://github.com/opscode-cookbooks/ant.git
