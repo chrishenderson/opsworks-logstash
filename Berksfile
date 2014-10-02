@@ -1,4 +1,4 @@
-#cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
+# example cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
 cookbook 'yum', '< 3.0.0'
 #[submodule "elasticsearch"]
 cookbook 'elasticsearch', 'github: chrishenderson/cookbook-elasticsearch'
