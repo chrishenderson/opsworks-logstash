@@ -7,7 +7,7 @@ cookbook 'elasticsearch', 'github: chrishenderson/cookbook-elasticsearch'
 #[submodule "kibana"]
 cookbook 'kibana', 'github: foxycoder/chef-kibana'
 #[submodule "logstash"]
-cookbook 'logstash', 'github: foxycoder/chef-logstash'.git'
+cookbook 'logstash', 'github: foxycoder/chef-logstash'
 #[submodule "redisio"]
 cookbook 'redisio', 'github: brianbianco/redisio'
 #[submodule "rabbitmq"]
