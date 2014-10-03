@@ -55,7 +55,7 @@ cookbook 'logrotate', git: 'git://github.com/opscode-cookbooks/logrotate.git'
 #[submodule "memcached"]
 cookbook 'memcached', git: 'git://github.com/chrishenderson/memcached.git'
 #[submodule "ohai"]
-cookbook 'ohai', 'git://github.com/opscode-cookbooks/ohai.git'
+cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
 #[submodule "openssl"]
 cookbook 'openssl', git: 'git://github.com/opscode-cookbooks/openssl.git'
 #[submodule "perl"]
