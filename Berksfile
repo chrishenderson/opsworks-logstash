@@ -38,7 +38,7 @@ cookbook 'ant', git: 'git://github.com/opscode-cookbooks/ant.git'
 #[submodule "apache2"]
 cookbook 'apache2', git: 'git://github.com/opscode-cookbooks/apache2.git'
 #[submodule "ark"]
-cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git'
+cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', ref: '0.2.4'
 #[submodule "aws"]
 cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git'
 #[submodule "bluepill"]
