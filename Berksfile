@@ -1,3 +1,6 @@
+#source 'https://api.berkshelf.com'
+source 'https://supermarket.getchef.com''
+
 # example cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
 
 #[submodule "yum"]
