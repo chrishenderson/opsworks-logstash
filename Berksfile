@@ -1,9 +1,10 @@
 # example cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
-cookbook 'yum', '< 3.0.0'
+
+cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git', ref: 'v2.4.4'
 #[submodule "elasticsearch"]
-#cookbook 'elasticsearch', 'github: chrishenderson/cookbook-elasticsearch'
+cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
 #[submodule "kibana"]
-cookbook 'kibana', 'github: foxycoder/chef-kibana'
+cookbook 'kibana', git: 'github: foxycoder/chef-kibana'
 #[submodule "logstash"]
 cookbook 'logstash', 'github: foxycoder/chef-logstash'
 #[submodule "redisio"]
