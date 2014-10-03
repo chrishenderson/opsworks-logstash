@@ -1,24 +1,25 @@
 # example cookbook 'redis', github: 'coderanger/chef-redis', tag: '1.0.4'
 
+#[submodule "yum"]
 cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git', ref: 'v2.4.4'
 #[submodule "elasticsearch"]
 cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
 #[submodule "kibana"]
-cookbook 'kibana', git: 'github: foxycoder/chef-kibana'
+cookbook 'kibana', git: 'git://github.com/foxycoder/chef-kibana'
 #[submodule "logstash"]
-cookbook 'logstash', 'github: foxycoder/chef-logstash'
+cookbook 'logstash', 'git://github.com/foxycoder/chef-logstash'
 #[submodule "redisio"]
-cookbook 'redisio', 'github: brianbianco/redisio'
+cookbook 'redisio', 'git://github.com/brianbianco/redisio'
 #[submodule "rabbitmq"]
-cookbook 'rabbitmq', 'github: opscode-cookbooks/rabbitmq'
+cookbook 'rabbitmq', 'git://github.com/opscode-cookbooks/rabbitmq'
 #[submodule "java"]
-cookbook 'java', 'github: opscode-cookbooks/java'
+cookbook 'java', 'git://github.com/opscode-cookbooks/java'
 #[submodule "apt"]
-cookbook 'apt', 'github: opscode-cookbooks/apt'
+cookbook 'apt', 'git://github.com/opscode-cookbooks/apt'
 #[submodule "erlang"]
-cookbook 'erlang', 'github: chrishenderson/erlang'
+cookbook 'erlang', 'git://github.com/chrishenderson/erlang'
 #[submodule "mysql"]
-cookbook 'mysql', 'github: opscode-cookbooks/mysql'
+cookbook 'mysql', 'git://github.com/opscode-cookbooks/mysql'
 #[submodule "nagios"]
 cookbook 'nagios', 'github: opscode-cookbooks/nagios'
 #[submodule "nginx"]
@@ -73,8 +74,6 @@ cookbook 'windows', 'github: opscode-cookbooks/windows'
 cookbook 'xfs', 'github: opscode-cookbooks/xfs'
 #[submodule "xml"]
 cookbook 'xml', 'github: opscode-cookbooks/xml'
-#[submodule "yum"]
-cookbook 'yum', 'github: opscode-cookbooks/yum'
 #[submodule "rsyslog"]
 cookbook 'rsyslog', 'github: opscode-cookbooks/rsyslog'
 #[submodule "hostsfile"]
