@@ -1,0 +1,276 @@
+DEPENDENCIES
+  ant
+    git: git://github.com/opscode-cookbooks/ant.git
+    revision: 69b809c64e2d66a7bfe8226d50fe30a17a00f427
+  apache2
+    git: git://github.com/opscode-cookbooks/apache2.git
+    revision: d40dd70b5561058ef60a623ebdd248d31c3bb255
+  apt
+    git: git://github.com/opscode-cookbooks/apt.git
+    revision: b40c122e82edbc998f95a2fefd88c619af441b86
+  ark
+    git: git://github.com/opscode-cookbooks/ark.git
+    revision: 49fa037f66d6bd4fb84ce123d96063015ebc22d9
+  aws
+    git: git://github.com/opscode-cookbooks/aws.git
+    revision: 469416c40a59970291820bd4be8631f2a05eb627
+  bluepill
+    git: git://github.com/opscode-cookbooks/bluepill.git
+    revision: ec0aea0b2d13c2f01db8cc9490256c8c74dfeb69
+  build-essential
+    git: git://github.com/opscode-cookbooks/build-essential.git
+    revision: 2e3317196f69305a44fcf048045c53d9a387e4d0
+  chef_handler
+    git: git://github.com/opscode-cookbooks/chef_handler.git
+    revision: 7690f1d2662cd06fe9ea27d4f742ae23b6374bd7
+  database
+    git: git://github.com/opscode-cookbooks/database.git
+    revision: 6e3c78e223c5e3c544bc7b8f418b90b3283f3711
+  dmg
+    git: git://github.com/opscode-cookbooks/dmg.git
+    revision: 91f9cbe7e277ec174723a7bbf025dbab65de6bbb
+  elasticsearch
+    git: git://github.com/chrishenderson/cookbook-elasticsearch.git
+    revision: d5fd5ddc48ea2b90064c1f07e640d50faab65a0e
+  erlang
+    git: git://github.com/chrishenderson/erlang.git
+    revision: 03f581133ac76d62133eb0db5652e2b74e016614
+  git
+    git: git://github.com/chrishenderson/git.git
+    revision: 68036c7f7d44e446a68a27f7db64e28e70e8c60f
+  hostsfile
+    git: git://github.com/foxycoder/hostsfile.git
+    revision: 48d290d940a5de788c59133c7e63148f33a6bc82
+  htpasswd
+    git: git://github.com/Youscribe/htpasswd-cookbook.git
+    revision: c35a6e6dee998fc34013a0d00240ec1f56c632d0
+  java
+    git: git://github.com/opscode-cookbooks/java.git
+    revision: e4b2520fc6598d0f830443c5176c18c4122406f7
+  kibana
+    git: git://github.com/foxycoder/chef-kibana.git
+    revision: a46f081b9a27ad1bc177274d5338f6f3bb85437d
+  logrotate
+    git: git://github.com/opscode-cookbooks/logrotate.git
+    revision: fd08cfde4c8566c4c5ac36672029bcc94f34be1e
+  logstash
+    git: git://github.com/foxycoder/chef-logstash.git
+    revision: 71b3aa2cf4116d04f9fb5272b664e08cf2b1c407
+  memcached
+    git: git://github.com/chrishenderson/memcached.git
+    revision: 83cc33983673b9d750d023d9321209a520e8adde
+  mysql
+    git: git://github.com/opscode-cookbooks/mysql.git
+    revision: 0dccc9a0b62f2423af013a5a9b7820030387bd5b
+  nagios
+    git: git://github.com/opscode-cookbooks/nagios.git
+    revision: 22bc548770c63ced04709ebe8c73e0ef36e67160
+  nginx
+    git: git://github.com/chrishenderson/nginx.git
+    revision: a64e6f8dd5c2b7faa4c70816465d6fbf4d4f1e98
+  ntp
+    git: git://github.com/opscode-cookbooks/ntp.git
+    revision: 103c84e8e36465e46ea9d597d3aad9aa38222978
+  ohai
+    git: git://github.com/opscode-cookbooks/ohai.git
+    revision: 63b78a4852dbff33cc33fc9753d8f19d2232d8d8
+  openssl
+    git: git://github.com/opscode-cookbooks/openssl.git
+    revision: b75ab471185f108a2fadc5c43efb7e2ef057ab30
+  opsworks-logstash
+    path: .
+    metadata: true
+  perl
+    git: git://github.com/opscode-cookbooks/perl.git
+    revision: 285d21e6ae643f5e4e38779fea683a4187136b9e
+  php
+    git: git://github.com/opscode-cookbooks/php.git
+    revision: 180e5d23037809e840d6ed8600f50823c513791a
+  postfix
+    git: git://github.com/opscode-cookbooks/postfix.git
+    revision: 4143c363c1d7b2a86d194228ed716e81cee8cde2
+  postgresql
+    git: git://github.com/opscode-cookbooks/postgresql.git
+    revision: e55cacedd34a5dc22f207e800b4ca272da22137f
+  python
+    git: git://github.com/opscode-cookbooks/python.git
+    revision: 234852013622673c106a21c0abaa291280e46c4e
+  rabbitmq
+    git: git://github.com/opscode-cookbooks/rabbitmq.git
+    revision: 6c05ca6619f43901a798ea605642bafb32f07ae6
+  rbenv
+    git: git://github.com/ddux/rbenv-cookbook.git
+    revision: 40b013b84ecda0bf73328c89c6145ea7764a1b06
+  redisio
+    git: git://github.com/brianbianco/redisio.git
+    revision: b1707226879de5560de650c2ddce780297fe35d7
+  rsyslog
+    git: git://github.com/opscode-cookbooks/rsyslog.git
+    revision: c26feb2fa3ebed13d56c75a2cdba5c8c0a861ba8
+  runit
+    git: git://github.com/chrishenderson/runit.git
+    revision: 03753b217c6ca55ac35aa6452144a4ffc963a020
+  vim
+    git: git://github.com/opscode-cookbooks/vim.git
+    revision: 858a24f745d3f7e13daca5ba918861d31401e0bf
+  windows
+    git: git://github.com/opscode-cookbooks/windows.git
+    revision: 0fba2fdc5e86ba6bb1e1dfa9475ffb3785b0bfee
+  xfs
+    git: git://github.com/opscode-cookbooks/xfs.git
+    revision: 18a49fc9c9a434e2a2112751a5bbdafc2dc302b3
+  xml
+    git: git://github.com/opscode-cookbooks/xml.git
+    revision: 791d91529f69c43674517f733dd2ed149da2ff94
+  yum
+    git: git://github.com/opscode-cookbooks/yum.git
+    revision: 7a04e5f7eaa6ff945959c77b83b4b772a19d212e
+  yumrepo
+    git: git://github.com/bryanwb/cookbook-yumrepo.git
+    revision: 865e009b1f131bb85fa706ebc1c426dade2bbd62
+
+GRAPH
+  7-zip (1.0.2)
+    windows (>= 1.2.2)
+  ant (1.0.3)
+    ark (>= 0.0.0)
+    java (>= 0.0.0)
+  apache2 (2.0.1)
+    iptables (>= 0.0.0)
+    logrotate (>= 0.0.0)
+  apt (2.6.0)
+  ark (0.9.1)
+    7-zip (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    windows (>= 0.0.0)
+  aws (2.4.0)
+  bluepill (2.3.2)
+    rsyslog (>= 0.0.0)
+  build-essential (2.0.6)
+  chef-sugar (2.3.0)
+  chef_handler (1.1.7)
+  database (2.3.0)
+    aws (>= 0.0.0)
+    mysql (>= 5.0.0)
+    mysql-chef_gem (>= 0.0.0)
+    postgresql (>= 1.0.0)
+    xfs (>= 0.0.0)
+  dmg (2.2.0)
+  elasticsearch (0.1.0)
+    java (>= 0.0.0)
+  erlang (1.5.6)
+    apt (>= 1.7.0)
+    build-essential (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+    yum-erlang_solutions (>= 0.0.0)
+  git (4.0.3)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  hostsfile (2.4.0)
+  htpasswd (0.2.5)
+    python (>= 0.0.0)
+  iis (2.1.5)
+    windows (>= 1.2.6)
+  iptables (0.14.0)
+  java (1.28.0)
+  kibana (1.1.5)
+    apache2 (>= 0.0.0)
+    git (>= 0.0.0)
+    htpasswd (>= 0.0.0)
+    nginx (>= 0.0.0)
+  logrotate (1.7.0)
+  logstash (0.1.0)
+    apt (>= 0.0.0)
+    logrotate (>= 0.0.0)
+    python (>= 0.0.0)
+    yum (>= 0.0.0)
+  memcached (1.7.3)
+    runit (~> 1.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  mysql (5.5.3)
+    yum-mysql-community (>= 0.0.0)
+  mysql-chef_gem (0.0.5)
+    build-essential (>= 0.0.0)
+    mysql (>= 0.0.0)
+  nagios (5.3.5)
+    apache2 (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    nginx (>= 0.0.0)
+    nginx_simplecgi (>= 0.0.0)
+    nrpe (>= 0.0.0)
+    php (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  nginx (2.7.4)
+    apt (~> 2.2)
+    bluepill (~> 2.3)
+    build-essential (~> 2.0)
+    ohai (~> 2.0)
+    runit (~> 1.2)
+    yum-epel (>= 0.0.0)
+  nginx_simplecgi (0.1.2)
+    bluepill (>= 0.0.0)
+    nginx (>= 0.0.0)
+    perl (>= 0.0.0)
+    runit (>= 0.0.0)
+  nrpe (1.4.4)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  ntp (1.6.5)
+  ohai (2.0.2)
+  openssl (2.0.1)
+    chef-sugar (>= 0.0.0)
+  opsworks-logstash (0.0.0)
+  perl (1.2.5)
+  php (1.4.7)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 0.0.0)
+    windows (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  postfix (3.6.0)
+  postgresql (3.4.6)
+    apt (>= 1.9.0)
+    build-essential (>= 0.0.0)
+    openssl (>= 0.0.0)
+  python (1.4.7)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  rabbitmq (3.3.0)
+    erlang (>= 0.9.0)
+  rbenv (1.6.5)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    git (>= 0.0.0)
+    ohai (>= 1.1)
+  redisio (2.2.4)
+    build-essential (>= 0.0.0)
+    ulimit (>= 0.1.2)
+  rsyslog (1.12.3)
+  runit (1.5.11)
+    build-essential (>= 0.0.0)
+    yum (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  ulimit (0.3.2)
+  vim (1.1.3)
+  windows (1.34.6)
+    chef_handler (>= 0.0.0)
+  xfs (1.1.0)
+  xml (1.2.7)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+  yum (3.3.2)
+  yum-epel (0.5.1)
+    yum (~> 3.0)
+  yum-erlang_solutions (0.2.0)
+    yum (~> 3.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)
+  yumrepo (0.16.6)
+    yum (>= 1.0.0)
