@@ -38,19 +38,19 @@ cookbook 'ant', git: 'git://github.com/opscode-cookbooks/ant.git', ref: 'v1.0.3'
 #[submodule "apache2"]
 cookbook 'apache2', git: 'git://github.com/opscode-cookbooks/apache2.git', ref: 'v2.0.1'
 #[submodule "ark"]
-cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', ref: 'v0.2.4'
+cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', ref: 'v0.9.1'
 #[submodule "aws"]
 cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git', ref: 'v2.0.4'
 #[submodule "bluepill"]
 cookbook 'bluepill', git: 'git://github.com/opscode-cookbooks/bluepill.git', ref: 'v2.3.2'
 #[submodule "build-essential"]
-cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git'
+cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git', ref: 'v2.0.6'
 #[submodule "chef_handler"]
 cookbook 'chef_handler', git: 'git://github.com/opscode-cookbooks/chef_handler.git'
 #[submodule "database"]
 cookbook 'database', git: 'git://github.com/opscode-cookbooks/database.git'
 #[submodule "dmg"]
-cookbook 'dmg', git: 'git://github.com/opscode-cookbooks/dmg.git'
+cookbook 'dmg', git: 'git://github.com/opscode-cookbooks/dmg.git', ref: 'v2.0.0'
 #[submodule "git"]
 cookbook 'git', git: 'git://github.com/chrishenderson/git.git'
 #[submodule "logrotate"]
@@ -58,7 +58,7 @@ cookbook 'logrotate', git: 'git://github.com/opscode-cookbooks/logrotate.git'
 #[submodule "memcached"]
 cookbook 'memcached', git: 'git://github.com/chrishenderson/memcached.git'
 #[submodule "ohai"]
-cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
+cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git', ref: 'v1.1.12'
 #[submodule "openssl"]
 cookbook 'openssl', git: 'git://github.com/opscode-cookbooks/openssl.git'
 #[submodule "perl"]
