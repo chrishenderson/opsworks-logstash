@@ -6,9 +6,9 @@ source 'https://supermarket.getchef.com'
 #[submodule "yum"]
 cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git', ref: 'v2.4.4'
 #[submodule "elasticsearch"]
-cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
+cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git', ref: 'v1.0.1'
 #[submodule "kibana"]
-cookbook 'kibana', git: 'git://github.com/foxycoder/chef-kibana.git'
+cookbook 'kibana', git: 'git://github.com/foxycoder/chef-kibana.git', ref: 'v1.1.5'
 #[submodule "logstash"]
 cookbook 'logstash', git: 'git://github.com/foxycoder/chef-logstash.git'
 #[submodule "redisio"]
@@ -16,7 +16,7 @@ cookbook 'redisio', git: 'git://github.com/brianbianco/redisio.git'
 #[submodule "rabbitmq"]
 cookbook 'rabbitmq', git: 'git://github.com/opscode-cookbooks/rabbitmq.git'
 #[submodule "java"]
-cookbook 'java', git: 'git://github.com/opscode-cookbooks/java.git'
+cookbook 'java', git: 'git://github.com/opscode-cookbooks/java.git', ref: 'v1.14.0'
 #[submodule "apt"]
 cookbook 'apt', git: 'git://github.com/opscode-cookbooks/apt.git'
 #[submodule "erlang"]
@@ -34,15 +34,15 @@ cookbook 'postgresql', git: 'git://github.com/opscode-cookbooks/postgresql.git'
 #[submodule "runit"]
 cookbook 'runit', git: 'git://github.com/chrishenderson/runit.git'
 #[submodule "ant"]
-cookbook 'ant', git: 'git://github.com/opscode-cookbooks/ant.git'
+cookbook 'ant', git: 'git://github.com/opscode-cookbooks/ant.git', ref: 'v1.0.3'
 #[submodule "apache2"]
-cookbook 'apache2', git: 'git://github.com/opscode-cookbooks/apache2.git'
+cookbook 'apache2', git: 'git://github.com/opscode-cookbooks/apache2.git', ref: 'v2.0.1'
 #[submodule "ark"]
-cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', ref: '0.2.4'
+cookbook 'ark', git: 'git://github.com/opscode-cookbooks/ark.git', ref: 'v0.2.4'
 #[submodule "aws"]
-cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git'
+cookbook 'aws', git: 'git://github.com/opscode-cookbooks/aws.git', ref: 'v2.0.4'
 #[submodule "bluepill"]
-cookbook 'bluepill', git: 'git://github.com/opscode-cookbooks/bluepill.git'
+cookbook 'bluepill', git: 'git://github.com/opscode-cookbooks/bluepill.git', ref: 'v2.3.2'
 #[submodule "build-essential"]
 cookbook 'build-essential', git: 'git://github.com/opscode-cookbooks/build-essential.git'
 #[submodule "chef_handler"]
