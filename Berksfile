@@ -86,3 +86,5 @@ cookbook 'rbenv', git: 'git://github.com/ddux/rbenv-cookbook.git'
 cookbook 'yumrepo', git: 'git://github.com/bryanwb/cookbook-yumrepo.git'
 #[submodule "htpasswd"]
 cookbook 'htpasswd', git: 'git://github.com/Youscribe/htpasswd-cookbook.git'
+#[submodule "rabbitmq_cluster"]
+cookbook 'rabbitmq_cluster', git: 'git://github.com/chrishenderson/opsworks-logstash.git'
