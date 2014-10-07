@@ -5,7 +5,7 @@ metadata
 #[submodule "yum"]
 cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git'
 #[submodule "elasticsearch"]
-cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
+cookbook 'elasticsearch', git: 'git://github.com/foxycoder/cookbook-elasticsearch.git'
 #[submodule "kibana"]
 cookbook 'kibana', '~> 1.1.5', git: 'git://github.com/foxycoder/chef-kibana.git'
 #[submodule "logstash"]
