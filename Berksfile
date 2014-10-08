@@ -28,6 +28,8 @@ cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
 cookbook 'nginx', '~> 2.7.4'
 #[submodule "ohai"]
 cookbook 'ohai'
+#[submodule "ohai"]
+#cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
 #[submodule "ntp"]
 cookbook 'ntp', git: 'git://github.com/opscode-cookbooks/ntp.git'
 #[submodule "postgresql"]
@@ -58,8 +60,6 @@ cookbook 'git', git: 'git://github.com/chrishenderson/git.git'
 cookbook 'logrotate', git: 'git://github.com/opscode-cookbooks/logrotate.git'
 #[submodule "memcached"]
 cookbook 'memcached', git: 'git://github.com/chrishenderson/memcached.git'
-#[submodule "ohai"]
-cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
 #[submodule "openssl"]
 cookbook 'openssl', git: 'git://github.com/opscode-cookbooks/openssl.git'
 #[submodule "perl"]
