@@ -31,7 +31,7 @@ DEPENDENCIES
     revision: 91f9cbe7e277ec174723a7bbf025dbab65de6bbb
   elasticsearch
     git: git://github.com/chrishenderson/cookbook-elasticsearch.git
-    revision: d5fd5ddc48ea2b90064c1f07e640d50faab65a0e
+    revision: 9927b45cc824e56b230db72ac947ecd6250dc42a
   erlang
     git: git://github.com/chrishenderson/erlang.git
     revision: 03f581133ac76d62133eb0db5652e2b74e016614
@@ -46,7 +46,7 @@ DEPENDENCIES
     revision: c35a6e6dee998fc34013a0d00240ec1f56c632d0
   java
     git: git://github.com/opscode-cookbooks/java.git
-    revision: e4b2520fc6598d0f830443c5176c18c4122406f7
+    revision: 896315a066f1b0d19be457b6d2700f0fd6d0083b
   kibana
     git: git://github.com/foxycoder/chef-kibana.git
     revision: a46f081b9a27ad1bc177274d5338f6f3bb85437d
@@ -61,13 +61,15 @@ DEPENDENCIES
     revision: 83cc33983673b9d750d023d9321209a520e8adde
   mysql
     git: git://github.com/opscode-cookbooks/mysql.git
-    revision: 0dccc9a0b62f2423af013a5a9b7820030387bd5b
+    revision: 7d07e0eb78f07fc66343893df29a6c3388ab4a2d
   nagios
     git: git://github.com/opscode-cookbooks/nagios.git
     revision: 22bc548770c63ced04709ebe8c73e0ef36e67160
+  nginx (~> 2.7.4)
   ntp
     git: git://github.com/opscode-cookbooks/ntp.git
     revision: 103c84e8e36465e46ea9d597d3aad9aa38222978
+  ohai (~> 2.0)
   openssl
     git: git://github.com/opscode-cookbooks/openssl.git
     revision: b75ab471185f108a2fadc5c43efb7e2ef057ab30
@@ -79,19 +81,22 @@ DEPENDENCIES
     revision: 285d21e6ae643f5e4e38779fea683a4187136b9e
   php
     git: git://github.com/opscode-cookbooks/php.git
-    revision: 180e5d23037809e840d6ed8600f50823c513791a
+    revision: c6a314b5eef964378d40d0c8b660e522b4cc51ab
   postfix
     git: git://github.com/opscode-cookbooks/postfix.git
     revision: 4143c363c1d7b2a86d194228ed716e81cee8cde2
   postgresql
     git: git://github.com/opscode-cookbooks/postgresql.git
-    revision: e55cacedd34a5dc22f207e800b4ca272da22137f
+    revision: 81300d5474bd454ba076a4330192b115bdd2c579
   python
     git: git://github.com/opscode-cookbooks/python.git
     revision: 234852013622673c106a21c0abaa291280e46c4e
   rabbitmq
     git: git://github.com/opscode-cookbooks/rabbitmq.git
-    revision: 6c05ca6619f43901a798ea605642bafb32f07ae6
+    revision: 75cecd7f34b2a8428774579c0dafef86945a5a8d
+  rabbitmq_cluster
+    git: git://github.com/chrishenderson/rabbitmq_cluster.git
+    revision: 3a1fddb46f1882a9994376db0ef40fc9d5cd6aa2
   rbenv
     git: git://github.com/ddux/rbenv-cookbook.git
     revision: 40b013b84ecda0bf73328c89c6145ea7764a1b06
@@ -109,7 +114,7 @@ DEPENDENCIES
     revision: 858a24f745d3f7e13daca5ba918861d31401e0bf
   windows
     git: git://github.com/opscode-cookbooks/windows.git
-    revision: 0fba2fdc5e86ba6bb1e1dfa9475ffb3785b0bfee
+    revision: e3ffa75f1bc8f189628d2ff9fb5339bb2c4100d7
   xfs
     git: git://github.com/opscode-cookbooks/xfs.git
     revision: 18a49fc9c9a434e2a2112751a5bbdafc2dc302b3
@@ -141,7 +146,7 @@ GRAPH
   bluepill (2.3.2)
     rsyslog (>= 0.0.0)
   build-essential (2.0.6)
-  chef-sugar (2.3.0)
+  chef-sugar (2.3.2)
   chef_handler (1.1.7)
   database (2.3.0)
     aws (>= 0.0.0)
@@ -187,7 +192,7 @@ GRAPH
     runit (~> 1.0)
     yum (>= 0.0.0)
     yum-epel (>= 0.0.0)
-  mysql (5.5.3)
+  mysql (5.5.4)
     yum-mysql-community (>= 0.0.0)
   mysql-chef_gem (0.0.5)
     build-essential (>= 0.0.0)
@@ -206,7 +211,7 @@ GRAPH
     build-essential (~> 2.0)
     ohai (~> 2.0)
     runit (~> 1.2)
-    yum-epel (>= 0.0.0)
+    yum-epel (~> 0.3)
   nginx_simplecgi (0.1.2)
     bluepill (>= 0.0.0)
     nginx (>= 0.0.0)
@@ -216,12 +221,12 @@ GRAPH
     build-essential (>= 0.0.0)
     yum-epel (>= 0.0.0)
   ntp (1.6.5)
-  ohai (2.0.2)
+  ohai (2.0.1)
   openssl (2.0.1)
     chef-sugar (>= 0.0.0)
   opsworks-logstash (0.0.0)
   perl (1.2.5)
-  php (1.4.7)
+  php (1.5.0)
     build-essential (>= 0.0.0)
     iis (>= 0.0.0)
     mysql (>= 0.0.0)
@@ -229,7 +234,7 @@ GRAPH
     xml (>= 0.0.0)
     yum-epel (>= 0.0.0)
   postfix (3.6.0)
-  postgresql (3.4.6)
+  postgresql (3.4.10)
     apt (>= 1.9.0)
     build-essential (>= 0.0.0)
     openssl (>= 0.0.0)
@@ -238,6 +243,9 @@ GRAPH
     yum-epel (>= 0.0.0)
   rabbitmq (3.3.0)
     erlang (>= 0.9.0)
+  rabbitmq_cluster (0.0.0)
+    hostsfile (>= 0.0.0)
+    rabbitmq (>= 0.0.0)
   rbenv (1.6.5)
     apt (>= 0.0.0)
     build-essential (>= 0.0.0)
