@@ -24,12 +24,12 @@ cookbook 'erlang', git: 'git://github.com/chrishenderson/erlang.git'
 cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
 #[submodule "nagios"]
 cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
-#[submodule "nginx"]
-cookbook 'nginx', '~> 2.7.4'
 #[submodule "ohai"]
 cookbook 'ohai'
 #[submodule "ohai"]
 #cookbook 'ohai', git: 'git://github.com/opscode-cookbooks/ohai.git'
+#[submodule "nginx"]
+cookbook 'nginx', '~> 2.7.4'
 #[submodule "ntp"]
 cookbook 'ntp', git: 'git://github.com/opscode-cookbooks/ntp.git'
 #[submodule "postgresql"]
