@@ -7,7 +7,7 @@ cookbook 'yum', git: 'git://github.com/opscode-cookbooks/yum.git'
 #[submodule "elasticsearch"]
 cookbook 'elasticsearch', git: 'git://github.com/chrishenderson/cookbook-elasticsearch.git'
 #[submodule "kibana"]
-cookbook 'kibana', '~> 1.1.5', git: 'git://github.com/lusis/chef-kibana.git'
+cookbook 'kibana', '~> 1.1.5', git: 'git://github.com/foxycoder/chef-kibana.git'
 #[submodule "logstash"]
 cookbook 'logstash', git: 'git://github.com/foxycoder/chef-logstash.git'
 #[submodule "redisio"]
