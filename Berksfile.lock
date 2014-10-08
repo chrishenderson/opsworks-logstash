@@ -65,15 +65,9 @@ DEPENDENCIES
   nagios
     git: git://github.com/opscode-cookbooks/nagios.git
     revision: 22bc548770c63ced04709ebe8c73e0ef36e67160
-  nginx
-    git: git://github.com/chrishenderson/nginx.git
-    revision: a64e6f8dd5c2b7faa4c70816465d6fbf4d4f1e98
   ntp
     git: git://github.com/opscode-cookbooks/ntp.git
     revision: 103c84e8e36465e46ea9d597d3aad9aa38222978
-  ohai
-    git: git://github.com/opscode-cookbooks/ohai.git
-    revision: 63b78a4852dbff33cc33fc9753d8f19d2232d8d8
   openssl
     git: git://github.com/opscode-cookbooks/openssl.git
     revision: b75ab471185f108a2fadc5c43efb7e2ef057ab30
