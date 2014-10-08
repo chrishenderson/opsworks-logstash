@@ -26,6 +26,8 @@ cookbook 'mysql', git: 'git://github.com/opscode-cookbooks/mysql.git'
 cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
 #[submodule "nginx"]
 cookbook 'nginx', '~> 2.7.4'
+#[submodule "ohai"]
+cookbook 'ohai',
 #[submodule "ntp"]
 cookbook 'ntp', git: 'git://github.com/opscode-cookbooks/ntp.git'
 #[submodule "postgresql"]
