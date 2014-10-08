@@ -27,7 +27,7 @@ cookbook 'nagios', git: 'git://github.com/opscode-cookbooks/nagios.git'
 #[submodule "nginx"]
 cookbook 'nginx', '~> 2.7.4'
 #[submodule "ohai"]
-cookbook 'ohai',
+cookbook 'ohai', '~> 2.0.1'
 #[submodule "ntp"]
 cookbook 'ntp', git: 'git://github.com/opscode-cookbooks/ntp.git'
 #[submodule "postgresql"]
