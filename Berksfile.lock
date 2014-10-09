@@ -48,8 +48,8 @@ DEPENDENCIES
     git: git://github.com/opscode-cookbooks/java.git
     revision: 896315a066f1b0d19be457b6d2700f0fd6d0083b
   kibana
-    git: git://github.com/chrishenderson/chef-kibana.git
-    revision: b1fac28c5ec035e082e715bf46dd739b70303563
+    git: git://github.com/lusis/chef-kibana.git
+    revision: dbd7ee079337a7e19aaf61a1f461882b63c95eef
   logrotate
     git: git://github.com/opscode-cookbooks/logrotate.git
     revision: 66ab1cb4ead5c969eb3b825bc06716d909fc8e73
@@ -177,11 +177,15 @@ GRAPH
     windows (>= 1.2.6)
   iptables (0.14.0)
   java (1.28.0)
-  kibana (1.1.5)
+  kibana (1.3.0)
     apache2 (>= 0.0.0)
+    ark (>= 0.0.0)
     git (>= 0.0.0)
-    htpasswd (>= 0.0.0)
+    libarchive (>= 0.0.0)
     nginx (>= 0.0.0)
+  libarchive (0.4.1)
+    apt (~> 2.5)
+    build-essential (~> 2.0)
   logrotate (1.7.0)
   logstash (0.1.0)
     apt (>= 0.0.0)
