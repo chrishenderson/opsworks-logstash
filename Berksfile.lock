@@ -47,9 +47,6 @@ DEPENDENCIES
   java
     git: git://github.com/opscode-cookbooks/java.git
     revision: 896315a066f1b0d19be457b6d2700f0fd6d0083b
-  kibana
-    git: git://github.com/foxycoder/chef-kibana.git
-    revision: a46f081b9a27ad1bc177274d5338f6f3bb85437d
   logrotate
     git: git://github.com/opscode-cookbooks/logrotate.git
     revision: fd08cfde4c8566c4c5ac36672029bcc94f34be1e
